@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Fahad12405.github.io/React-Haven-Estate",
   "name": "realestate",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
